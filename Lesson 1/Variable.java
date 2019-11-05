@@ -1,9 +1,7 @@
+// TODO создать переменные в классе и вывести их значение на экран
 public class Variable {
 
 	public static void main(String[] args) {
-
-		// TODO создать переменные в классе и вывести их значение на экран
-
 		byte numCores = 2;
 		short numLogProc = 4;
 		int numMemoryMb = 8;
@@ -11,7 +9,7 @@ public class Variable {
 		float frequency = 3.91f;
 		double averSpeedLan = 10.154584687455;
 		char versProc = 'U';
-		boolean build = true;
+		boolean isBuild = true;
 
 		System.out.println(numCores);
 		System.out.println(numLogProc);
@@ -20,7 +18,6 @@ public class Variable {
 		System.out.println(frequency);
 		System.out.println(averSpeedLan);
 		System.out.println(versProc);
-		System.out.println(build);
-
+		System.out.println(isBuild);
 	}
 }
