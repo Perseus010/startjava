@@ -7,20 +7,21 @@ public class Circle {
 
 		System.out.println();
 
-		int n = 6;
-		while (n >= -6) {
-			System.out.print(n + " ");
-			n-=2;
+		int counter = 6;
+		while (counter >= -6) {
+			System.out.print(counter + " ");
+			counter -= 2;
 		}
 
 		System.out.println();
 
-		int c = 10;
+		counter = 10;
 		int sum = 0;
-		do {if (c % 2 == 1) {
-			sum = sum + c;
+		do {
+			if (counter % 2 == 1) {
+			sum += counter;
 			System.out.print(sum + " ");}
-			c++;
-		} while (c <= 20);		
+			counter++;
+		} while (counter <= 20);		
 	}
 }
