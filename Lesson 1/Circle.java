@@ -18,7 +18,7 @@ public class Circle {
 		counter = 10;
 		int sum = 0;
 		do {
-			if (counter % 2 == 1) {
+			if (counter % 2 != 0) {
 			sum += counter;
 			System.out.print(sum + " ");}
 			counter++;
