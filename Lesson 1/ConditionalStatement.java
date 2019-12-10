@@ -7,12 +7,11 @@ public class ConditionalStatement {
 			System.out.println("Мой возраст свыше 20 лет");
 		}
 
-		char gender = 'M'; //M - мужской пол
-		boolean isCheckGender = gender == 'M' ;
-		if (isCheckGender == true) {
+		boolean isMan = true;
+		if (isMan) {
 			System.out.println("Перед Вами лицо мужского пола");
 		} 
-		if (isCheckGender == false) {
+		if (!isMan) {
 			System.out.println("Перед Вами лицо не мужского пола");
 		} 
 
